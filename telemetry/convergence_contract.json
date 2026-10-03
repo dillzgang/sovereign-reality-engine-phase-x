@@ -1,0 +1,14 @@
+{
+  "heartbeat_interval_ms": 5000,
+  "streams": {
+    "mutation": true,
+    "convergence": true,
+    "billing": true
+  },
+  "metrics": {
+    "publish_readiness_score": "float",
+    "policy_violation_rate": "float",
+    "provider_efficiency": "float",
+    "sku_accuracy": "float"
+  }
+}

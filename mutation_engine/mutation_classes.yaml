@@ -1,0 +1,11 @@
+classes:
+  A: provider_routing_optimization
+  B: skill_refinement
+  C: pricing_recalibration
+  D: policy_tightening
+governance:
+  class_d_requires_global_approval: true
+safety:
+  cannot_weaken_safety: true
+  cannot_reduce_secret_hygiene: true
+  cannot_bypass_policy_gates: true

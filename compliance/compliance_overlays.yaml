@@ -1,0 +1,5 @@
+overlays:
+  pii: strict
+  secret_hygiene: quarantine_immediate
+  metadata_validation: enforced
+  pricing_validation: deterministic

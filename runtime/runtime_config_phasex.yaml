@@ -1,0 +1,6 @@
+system_mode: elite_sovereign
+performance_targets:
+  latency_p99: 200ms
+  concurrency_limit: infinite_elastic
+  readiness_threshold: 0.95
+mutation_policy: autonomous_deterministic

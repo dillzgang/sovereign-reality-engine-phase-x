@@ -1,0 +1,9 @@
+billing_model: dollarized
+sla_enforcement: true
+invoice_credit_on_breach: true
+tenant_isolation: enforced
+metrics:
+  - provider_calls
+  - cost_usd
+  - latency_ms
+  - sla_breaches

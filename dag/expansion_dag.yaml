@@ -1,0 +1,17 @@
+version: "phasex"
+nodes:
+  - id: detect_opportunity
+    skill: analytics.detect
+  - id: draft_vertical_blueprint
+    skill: generate.blueprint
+  - id: generate_sku_bundle
+    skill: create_sku_assets.v3
+  - id: validate_metadata
+    skill: compliance.validate_metadata
+  - id: publish_or_draft
+    skill: publish.evaluate
+edges:
+  - detect_opportunity -> draft_vertical_blueprint
+  - draft_vertical_blueprint -> generate_sku_bundle
+  - generate_sku_bundle -> validate_metadata
+  - validate_metadata -> publish_or_draft
